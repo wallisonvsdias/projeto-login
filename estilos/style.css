@@ -1,6 +1,85 @@
 @charset "UTF-8";
 
 :root {
-    --main-color: #49a09d;
-    --secondary-color: #A1684A;    
+    --main-color: #53bbb7;
+    --secondary-color: #c98b44;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#formulario {
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+span {
+    color: white;
+    padding: 5px;
+}
+
+.grupo-dado {
+    background-color: var(--secondary-color);
+    border-radius: 7px;
+    margin-bottom: 5px;    
+    padding: 2px;
+}
+
+.dado {
+    background-color: var(--main-color);
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.botao {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#entrar {
+    background-color: var(--main-color);
+    color: white;
+    margin-bottom: 5px;
+}
+
+#esqueceu-senha {
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
 }

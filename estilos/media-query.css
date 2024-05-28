@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root {
+    --main-color: #53bbb7;
+    --secondary-color: #c98b44;    
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) /* and (max-width: 768px) */ {
+    
+    body {
+        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
+    }
+
+    section#login {
+        width: 600px;
+        height: 300px;
+    }
+
+    img {
+        position: absolute;
+        width: 200px;
+        height: 100%;
+    }
+}
