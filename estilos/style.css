@@ -27,8 +27,9 @@ section#login {
     transform: translate(-50%, -50%);
 }
 
-img {
-    width: 100%;
+#imagem {
+    background: url("../imagens/water.jpg") center / cover;
+    height: 200px;
     border-radius: 20px 20px 0 0;
 }
 
