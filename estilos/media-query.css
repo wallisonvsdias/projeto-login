@@ -6,7 +6,7 @@
 }
 
 /* Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
         background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
@@ -23,20 +23,21 @@
     }
 
     #img1 {
+        float: left;
         width: 200px;
         height: 100%;
-        border-radius: 20px 0 0 20px;
-        float: left;
+        border-radius: 20px 0 0 20px;        
     }
 
     #formulario {
+        float: right;
         width: 445px;
         height: 300px;
     }
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
     
     body {
         background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
