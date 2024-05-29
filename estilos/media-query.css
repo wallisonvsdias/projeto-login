@@ -16,7 +16,7 @@
         height: 300px;
     }
 
-    #img1 {
+    #imagem {
         float: left;
         width: 30%;
         height: 100%;    
@@ -29,6 +29,7 @@
 
 }
 
+/* Desktop e grandes telas */
 @media screen and (min-width: 993px) {
     body {
         background: linear-gradient(to bottom, var(--main-color), var(--secondary-color));
@@ -36,32 +37,26 @@
 
     section#login {
         width: 950px;
+        height: 350px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;        
+    }
+
+    #formulario {
+        float: left;
+        width: 50%;
     }
 
     h1 {
         font-size: 2em;
     }
 
-    .imagem {
-        float: right;
-        width: 50%;
-        height: 100%;        
+    p {
+        font-size: 1em;
+        margin: 20px 0;
     }
-
-    #img1 {
-        display: none;
-    }
-
-    #img2 {
-        width: 200px;
-        height: 100%;
-        float: right;
-    }
-
-    #formulario {
-        float: left;
-        width: 445px;
-        height: 300px;
-    }
-    
 }
