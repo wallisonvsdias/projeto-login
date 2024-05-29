@@ -7,50 +7,45 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
     body {
-        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
+        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color));
     }
 
     section#login {
-        width: 650px;
+        width: 80vw;
         height: 300px;
-        transition: 1s;
-    }
-
-    #login div {
-        display: inline-block;
     }
 
     #img1 {
         float: left;
-        width: 200px;
-        height: 100%;
-        border-radius: 20px 0 0 20px;        
+        width: 30%;
+        height: 100%;    
     }
 
     #formulario {
         float: right;
-        width: 445px;
-        height: 300px;
+        width: 70%;
     }
 
 }
 
 @media screen and (min-width: 993px) {
-    
     body {
-        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
+        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color));
     }
 
     section#login {
-        width: 650px;
-        height: 300px;
-        transition: 1s;
+        width: 950px;
     }
 
-    #login div {
-        display: inline-block;
+    h1 {
+        font-size: 2em;
+    }
+
+    .imagem {
+        float: right;
+        width: 50%;
+        height: 100%;        
     }
 
     #img1 {
@@ -60,11 +55,11 @@
     #img2 {
         width: 200px;
         height: 100%;
-        border-radius: 0 20px 20px 0;
         float: right;
     }
 
     #formulario {
+        float: left;
         width: 445px;
         height: 300px;
     }
