@@ -6,24 +6,66 @@
 }
 
 /* Tablets */
-@media screen and (min-width: 769px) /* 481 min and (max-width: 768px) */ {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    body {
+        background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
+    }
+
+    section#login {
+        width: 650px;
+        height: 300px;
+        transition: 1s;
+    }
+
+    #login div {
+        display: inline-block;
+    }
+
+    #img1 {
+        width: 200px;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+        float: left;
+    }
+
+    #formulario {
+        width: 445px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
     
     body {
         background: linear-gradient(to bottom, var(--main-color), var(--secondary-color)) fixed;
     }
 
     section#login {
-        width: 600px;
+        width: 650px;
         height: 300px;
+        transition: 1s;
     }
 
-    #imagem {
+    #login div {
+        display: inline-block;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
         width: 200px;
-        height: 300px;
-        border-radius: 20px 0 0 20px;
+        height: 100%;
+        border-radius: 0 20px 20px 0;
+        float: right;
     }
 
     #formulario {
-        width: 100px;
+        width: 445px;
+        height: 300px;
     }
+    
 }

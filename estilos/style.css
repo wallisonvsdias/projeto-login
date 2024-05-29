@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,17 +21,23 @@ section#login {
     background-color: white;
     width: 250px;
     border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.315);
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 1s;
 }
 
-#imagem {
+.imagem {
     background: url("../imagens/water.jpg") center / cover;
     height: 200px;
     border-radius: 20px 20px 0 0;
+}
+
+#img2 {
+    display: none;
 }
 
 #formulario {
